@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.jokes-table {
+  width: 846px;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #dddddd;
+}
+
+.table-column {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.table-head {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+.jokes-filter-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+  width: fit-content;
+}
+
+.jokes-filter-input {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.jokes-filter-input:focus {
+  border-color: #007BFF; /* Change border color on focus (e.g., Bootstrap blue) */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+}
