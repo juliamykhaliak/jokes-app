@@ -1,3 +1,9 @@
+### Setup
+
+1. Install [nvm](https://github.com/nvm-sh/nvm) and run `nvm install` from the project directory to install and use the required node version.
+2. `npm install`
+3. `npm run dev`
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
